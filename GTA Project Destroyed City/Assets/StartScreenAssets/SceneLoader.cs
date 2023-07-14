@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    
-        public void LoadGame()
+    void Start()
+    {
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+    public void LoadGame()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
@@ -14,5 +19,7 @@ public class SceneLoader : MonoBehaviour
             Application.Quit();
             Debug.Log("Quit!!");
         }
-    
+
+        
+       
 }
