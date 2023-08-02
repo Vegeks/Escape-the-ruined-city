@@ -12,7 +12,7 @@ public class FallCheckSphere : MonoBehaviour
     {
         if (col.gameObject.name == "FallCheck")
         {
-            Debug.Log("Collision Detected!");
+            //Debug.Log("Collision Detected!");
             //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             SceneManager.LoadScene("EndScreen");
         }

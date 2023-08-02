@@ -34,12 +34,13 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
-        Debug.Log("IsGrounded1 = " + isGrounded);
+        //Debug.Log(isGrounded);
+       // Debug.Log("IsGrounded1 = " + isGrounded);
 
         
         //if (isGrounded && velocity.y < -20)
       //  {
-          //  velocity.y = -2f;
+          //  velocity.y = -2f; 
     //
        // }
 
@@ -52,16 +53,18 @@ public class playerMovement : MonoBehaviour
         {
 
             velocity.y = Mathf.Sqrt(jumpHeight * -1.5f * gravity);
-
+         //   Debug.Log("Jump!");
+            
         }
 
-        
-
         controller.Move(move * speed * Time.deltaTime);
-
         velocity.y += gravity * Time.deltaTime;
-        Debug.Log(velocity.y);
-        controller.Move(velocity * speed * Time.deltaTime);
+        controller.Move(velocity * speed* Time.deltaTime);
+        // controller.Move(move * speed * Time.deltaTime);
+
+        // velocity.y += gravity * Time.deltaTime;
+        //Debug.Log(velocity.y);
+        // controller.Move(velocity * speed * Time.deltaTime);
 
         //if(isGrounded==false)
         //{
@@ -92,7 +95,7 @@ public class playerMovement : MonoBehaviour
     {
         if (col.gameObject.name == "FallCheck")
         {
-            Debug.Log("Collision Detected!");
+            //Debug.Log("Collision Detected!");
             SceneManager.LoadScene("EndScreen");
         }
 
