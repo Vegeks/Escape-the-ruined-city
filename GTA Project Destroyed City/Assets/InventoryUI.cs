@@ -13,7 +13,7 @@ public class InventoryUI : MonoBehaviour
 
     public void UpdateDiamondText(PlayerInventory playerInventory)
     {
-        diamondText.text = playerInventory.NumberOfDiamonds.ToString()+"/10  ";
+        diamondText.text = playerInventory.NumberOfDiamonds.ToString()+"/20  ";
     }
 }
 

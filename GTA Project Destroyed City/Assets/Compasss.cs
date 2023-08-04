@@ -7,7 +7,7 @@ public class Compasss : MonoBehaviour
     public Transform mPlayerTransform;
 
     //[Tooltip("The direction towards which the compass points. Default for North is (0, 0, 1)")]
-    public Vector3 kReferenceVector = new Vector3(0, 0, 1);
+    public Vector3 kReferenceVector = new Vector3(433, 173, 919);
    
     // memalloc
     private Vector3 _mTempVector;
@@ -15,8 +15,8 @@ public class Compasss : MonoBehaviour
     public PlayerInventory playerInventory;
     public void Start()
     {
-        gameObject.SetActive(false);
-        if(playerInventory.NumberOfDiamonds>=3)
+        //gameObject.SetActive(false);
+        if(playerInventory.NumberOfDiamonds>=20)
         {
             Debug.Log("Yes!");
             gameObject.SetActive(true);

@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CollisionCheck
+    - CompassToggle
     - Compasss
     - FallCheckSphere
     - InventoryUI
@@ -60,6 +61,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -79,31 +84,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2048}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2572}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2574}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2898}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 3542}
+      Script: {instanceID: 2900}
     - Class: 114
-      Script: {instanceID: 3668}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 3786}
+      Script: {instanceID: 3546}
     - Class: 114
-      Script: {instanceID: 4176}
+      Script: {instanceID: 3672}
     - Class: 114
-      Script: {instanceID: 4294}
+      Script: {instanceID: 3790}
     - Class: 114
-      Script: {instanceID: 321394}
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4298}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 121
@@ -163,6 +170,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -172,17 +181,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1760}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 3288}
+      Script: {instanceID: 3292}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -223,23 +232,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2038}
     - Class: 114
-      Script: {instanceID: 2338}
+      Script: {instanceID: 2340}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2492}
+      Script: {instanceID: 2494}
     - Class: 114
-      Script: {instanceID: 2620}
+      Script: {instanceID: 2622}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 2892}
+      Script: {instanceID: 2894}
     - Class: 114
-      Script: {instanceID: 3654}
+      Script: {instanceID: 3658}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3852}
     - Class: 114
-      Script: {instanceID: 4116}
+      Script: {instanceID: 4120}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -325,7 +334,7 @@ ScriptsOnlyBuild:
     className: CarMovement
   - hash:
       serializedVersion: 2
-      Hash: 68e22f8626a17155a7c0b13aacc781f2
+      Hash: e0372414da01957ec48b73fe42f4f6e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerInventory
@@ -353,6 +362,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 732939192012020893b442a14ae5bdf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CompassToggle
   - hash:
       serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
@@ -548,6 +563,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InventoryUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -739,7 +760,7 @@ ScriptsOnlyBuild:
     className: MouseLook
   - hash:
       serializedVersion: 2
-      Hash: 8fa345acddacdc5a23fb2402a230ae78
+      Hash: c3c6dcc8975132d75147eb5904a84c4c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Compasss
@@ -772,10 +793,16 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: InventoryUI
+    className: DontDestroyAudio
+  - hash:
+      serializedVersion: 2
+      Hash: 732939192012020893b442a14ae5bdf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: toggle
   platform: 19
   scenePathNames:
   - Assets/StartScreenAssets/Scenes/SampleScene.unity
   - Assets/Destroyed_city_FREE/Scenes/destroyed_city.unity
   - Assets/EndScreen.unity
-  playerPath: D:/Testing Game/GTA Project Destroyed City.exe
+  playerPath: D:/final game/GTA Project Destroyed City.exe
