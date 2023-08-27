@@ -10,7 +10,6 @@ ScriptsOnlyBuild:
     - PlayerLook
     - SceneLoader
     - SceneLoader1
-    - Water
     - diamond
     - playerMovement
     Unity.Rider.Editor.dll:
@@ -75,8 +74,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 111
-      Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 1518}
     - Class: 114
@@ -98,19 +95,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 2900}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 3164}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 3546}
+      Script: {instanceID: 3548}
     - Class: 114
-      Script: {instanceID: 3672}
+      Script: {instanceID: 3676}
     - Class: 114
-      Script: {instanceID: 3790}
+      Script: {instanceID: 3794}
     - Class: 114
-      Script: {instanceID: 4180}
-    - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4302}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 121
@@ -170,8 +165,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -191,7 +184,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -242,13 +235,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2808}
     - Class: 114
-      Script: {instanceID: 2894}
+      Script: {instanceID: 2896}
     - Class: 114
-      Script: {instanceID: 3658}
+      Script: {instanceID: 3662}
     - Class: 114
-      Script: {instanceID: 3852}
+      Script: {instanceID: 3856}
     - Class: 114
-      Script: {instanceID: 4120}
+      Script: {instanceID: 4124}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -520,6 +513,12 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DontDestroyAudio
+  - hash:
+      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -650,6 +649,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: diamond
+  - hash:
+      serializedVersion: 2
+      Hash: 732939192012020893b442a14ae5bdf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: toggle
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -788,21 +793,10 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DontDestroyAudio
-  - hash:
-      serializedVersion: 2
-      Hash: 732939192012020893b442a14ae5bdf3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: toggle
   platform: 19
   scenePathNames:
   - Assets/StartScreenAssets/Scenes/SampleScene.unity
   - Assets/Destroyed_city_FREE/Scenes/destroyed_city.unity
   - Assets/EndScreen.unity
-  playerPath: D:/final game/GTA Project Destroyed City.exe
+  playerPath: C:/Users/sidha/Documents/GitHub/Escape-the-ruined-city/Built Game For
+    Download/GTA Project Destroyed City.exe
