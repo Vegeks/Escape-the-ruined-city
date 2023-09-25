@@ -1764,7 +1764,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 168330575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25498e239acaa0b4a97cf35f87d63b4c, type: 3}
+  m_Script: {fileID: 11500000, guid: affd926b92fad044d9494b367a39c95f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &168506136 stripped
@@ -3286,7 +3286,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 346371417}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9891c2b2d75ff645912df606e5d5538, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c787145b141df54f824dbfcadf7ec67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &369770718
@@ -3319,7 +3319,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 369770718}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 214c37a5911e82a48be5ecf668cecbb9, type: 3}
+  m_Script: {fileID: 11500000, guid: 22c4e01901c1eab45810d7afb5a8e231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &369770720
@@ -5605,15 +5605,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to Apolcalypse - The city of lost hopes
+  m_text: 'Welcome to Apocalypse - The city of lost hopes
 
     Objectives :
 
-    To
-    Find the exit gate in this abandoned city,
+    Find
+    the exit gate in this abandoned city,
 
-    Collect 10 diamonds to unlock
-    compass then follow North '
+    Collect 20 diamonds to unlock compass
+    then follow North '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6133,7 +6133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 702029497}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5769df7163875f8489bb96e8ca66db06, type: 3}
+  m_Script: {fileID: 11500000, guid: 70cadee2ef2d5f248807d9f8bfc80b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mPlayerTransform: {fileID: 1862293097}
@@ -8140,6 +8140,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 195
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &891204440 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2594307509005943312, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
+  m_PrefabInstance: {fileID: 1892537677}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &899808692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17932,6 +17937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gem_08 (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 3745851933221893627, guid: b435d3f9c8d2e0944acbca1b17377546, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b435d3f9c8d2e0944acbca1b17377546, type: 3}
 --- !u!1001 &1806410912
@@ -18459,6 +18468,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2594307510037629464, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
   m_PrefabInstance: {fileID: 1892537677}
   m_PrefabAsset: {fileID: 0}
+--- !u!143 &1862293096 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 2594307510037629467, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
+  m_PrefabInstance: {fileID: 1892537677}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1862293097 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2594307510037629468, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
@@ -18486,7 +18500,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1862293094}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc6288abe69f36a488c1b833bf1b7a09, type: 3}
+  m_Script: {fileID: 11500000, guid: 7349bc99361d4e9408b2b4172deac0a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   compass: {fileID: 2018520047}
@@ -18774,6 +18788,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.11
       objectReference: {fileID: 0}
+    - target: {fileID: 2594307509960051764, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
+      propertyPath: playerBody
+      value: 
+      objectReference: {fileID: 1862293097}
     - target: {fileID: 2594307510037629464, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
       propertyPath: m_Icon
       value: 
@@ -18795,13 +18813,25 @@ PrefabInstance:
       value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 2594307510037629466, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2594307510037629466, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
       propertyPath: playerObj
       value: 
       objectReference: {fileID: 1862293094}
     - target: {fileID: 2594307510037629466, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 1862293096}
+    - target: {fileID: 2594307510037629466, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
       propertyPath: jumpHeight
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2594307510037629466, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
+      propertyPath: groundCheck
+      value: 
+      objectReference: {fileID: 891204440}
     - target: {fileID: 2594307510037629466, guid: 54fd80e12f487eb4caaecfebaf0f74a9, type: 3}
       propertyPath: groundMask.m_Bits
       value: 4294967295
@@ -20334,7 +20364,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018520039}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5769df7163875f8489bb96e8ca66db06, type: 3}
+  m_Script: {fileID: 11500000, guid: 70cadee2ef2d5f248807d9f8bfc80b73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mPlayerTransform: {fileID: 1862293097}
@@ -20468,7 +20498,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2018520039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e9d57a3affb56a41a798e17480cf228, type: 3}
+  m_Script: {fileID: 11500000, guid: 938a105e0b57eed4bbb504316b64b2f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   playerInventory: {fileID: 1862293099}
