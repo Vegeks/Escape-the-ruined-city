@@ -1,4 +1,3 @@
 # Escape-the-ruined-city
-It is 3D survival game based on Unity Engine and C# scripting.
-Objective of the game is for your player to collect at least 20 diamonds placed throughout the map to unlock a compass which you have to strategically follow to find the exit gate and escape in order to win.
+It is a windows supporting 3D survivor game created using Unity engine and C# scripting. The player spawns in an apocalyptic city where he has to collect many collectibles which unlocks a compass and then strategically follow the compass to escape and win. The game mechanics is highly engaging and smooth which includes jumping, sprinting, and interacting with the world. The game is set in a visually stunning environment with the best assets to foster deep sense of exploration. You can check my GitHub repo for the source code and design details.
 You can the download the built version from here and enjoy
