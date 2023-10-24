@@ -75,37 +75,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1508}
     - Class: 114
-      Script: {instanceID: 1706}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 2048}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2440}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 2574}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2656}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2710}
     - Class: 114
-      Script: {instanceID: 2902}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 2950}
     - Class: 114
-      Script: {instanceID: 3548}
+      Script: {instanceID: 3710}
     - Class: 114
-      Script: {instanceID: 3676}
+      Script: {instanceID: 4164}
     - Class: 114
-      Script: {instanceID: 3794}
+      Script: {instanceID: 4310}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 4318}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 121
@@ -170,21 +170,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1666}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 2116}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2440}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 3294}
+      Script: {instanceID: 3274}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,29 +219,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1518}
+      Script: {instanceID: 1520}
     - Class: 114
-      Script: {instanceID: 1760}
+      Script: {instanceID: 1752}
     - Class: 114
-      Script: {instanceID: 2038}
+      Script: {instanceID: 2028}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 2452}
+      Script: {instanceID: 2440}
     - Class: 114
-      Script: {instanceID: 2494}
+      Script: {instanceID: 2482}
     - Class: 114
-      Script: {instanceID: 2622}
+      Script: {instanceID: 2608}
     - Class: 114
-      Script: {instanceID: 2808}
+      Script: {instanceID: 2796}
     - Class: 114
-      Script: {instanceID: 2896}
+      Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 3662}
+      Script: {instanceID: 3638}
     - Class: 114
-      Script: {instanceID: 3856}
+      Script: {instanceID: 3830}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 4092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -259,6 +259,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 732939192012020893b442a14ae5bdf3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CompassToggle
   - hash:
       serializedVersion: 2
       Hash: 5ab533713adae59372fb3e10a585c186
@@ -303,12 +309,6 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneLoader1
-  - hash:
-      serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -319,18 +319,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 6613f012eeaa511126995d6772a692a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CarMovement
-  - hash:
-      serializedVersion: 2
-      Hash: e0372414da01957ec48b73fe42f4f6e3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerInventory
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -357,12 +345,6 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
-      Hash: 732939192012020893b442a14ae5bdf3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CompassToggle
-  - hash:
-      serializedVersion: 2
       Hash: 699619b86d9359741a4f58540298c80b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -375,16 +357,16 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneLoader1
+  - hash:
+      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: 518c537a48ccbd9b023237540dfce47f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MaterialChanger
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -435,12 +417,6 @@ ScriptsOnlyBuild:
     className: playerMovement
   - hash:
       serializedVersion: 2
-      Hash: da6d44683ccf0d39a8ee578655f68dae
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerMotor
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
@@ -472,9 +448,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisionCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FallCheckSphere
   - hash:
       serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
@@ -513,28 +501,22 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DontDestroyAudio
-  - hash:
-      serializedVersion: 2
       Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
   - hash:
       serializedVersion: 2
-      Hash: 655675a941ea756088027703b43352a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerLook
-  - hash:
-      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: diamond
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -559,12 +541,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: InventoryUI
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -645,18 +621,6 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: diamond
-  - hash:
-      serializedVersion: 2
-      Hash: 732939192012020893b442a14ae5bdf3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: toggle
-  - hash:
-      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -669,16 +633,16 @@ ScriptsOnlyBuild:
     className: SceneLoader
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CollisionCheck
-  - hash:
-      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 655675a941ea756088027703b43352a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerLook
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -697,12 +661,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ScrollRect
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FallCheckSphere
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -729,12 +687,6 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: EnemyAI
-  - hash:
-      serializedVersion: 2
       Hash: 6980e81ddc615a861309d2d659cc3760
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -753,22 +705,22 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
-      Hash: c73a5e78521f855ddd90cb582836a47d
+      Hash: e0372414da01957ec48b73fe42f4f6e3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Water
-  - hash:
-      serializedVersion: 2
-      Hash: a4ab9532686dbd13bc2c5bb58a3781ce
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MouseLook
+    className: PlayerInventory
   - hash:
       serializedVersion: 2
       Hash: c3c6dcc8975132d75147eb5904a84c4c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Compasss
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InventoryUI
   - hash:
       serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
@@ -798,5 +750,5 @@ ScriptsOnlyBuild:
   - Assets/StartScreenAssets/Scenes/SampleScene.unity
   - Assets/Destroyed_city_FREE/Scenes/destroyed_city.unity
   - Assets/EndScreen.unity
-  playerPath: C:/Users/sidha/Documents/GitHub/Escape-the-ruined-city/Built Game For
-    Download/GTA Project Destroyed City.exe
+  playerPath: C:/Users/sidha/Documents/GitHub/Escape-the-ruined-city/built game for
+    testing purposes/GTA Project Destroyed City.exe
